@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Model.DesignedDiffs.xafml](./CS/WebLayoutSolution.Module.Web/Model.DesignedDiffs.xafml) (VB: [Model.DesignedDiffs.xafml](./VB/WebLayoutSolution.Module.Web/Model.DesignedDiffs.xafml))
+* **[WebLayoutManagerEx.cs](./CS/WebLayoutSolution.Module.Web/WebLayoutManagerEx.cs) (VB: [WebLayoutManagerEx.vb](./VB/WebLayoutSolution.Module.Web/WebLayoutManagerEx.vb))**
+* [WebModule.cs](./CS/WebLayoutSolution.Module.Web/WebModule.cs) (VB: [WebModule.vb](./VB/WebLayoutSolution.Module.Web/WebModule.vb))
+* [BO.cs](./CS/WebLayoutSolution.Module/BusinessObjects/BO.cs) (VB: [BO.vb](./VB/WebLayoutSolution.Module/BusinessObjects/BO.vb))
+* [Updater.cs](./CS/WebLayoutSolution.Module/DatabaseUpdate/Updater.cs) (VB: [Updater.vb](./VB/WebLayoutSolution.Module/DatabaseUpdate/Updater.vb))
+* [WebApplication.cs](./CS/WebLayoutSolution.Web/WebApplication.cs) (VB: [WebApplication.vb](./VB/WebLayoutSolution.Web/WebApplication.vb))
+<!-- default file list end -->
 # How to customize WebLayoutManager to avoid large gaps between the editor and its caption
 
 
