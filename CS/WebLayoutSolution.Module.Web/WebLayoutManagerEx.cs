@@ -3,7 +3,7 @@ using DevExpress.ExpressApp.Layout;
 using DevExpress.ExpressApp.Model;
 using DevExpress.ExpressApp.Web.Layout;
 using DevExpress.ExpressApp.Web.SystemModule;
-using DevExpress.Utils;
+using DevExpress.Persistent.Base;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -64,8 +64,8 @@ namespace WebLayoutSolution.Module.Web {
             OnCustomizeAppearance(new CustomizeAppearanceEventArgs(layoutItemModel.Id, new WebLayoutItemAppearanceAdapter(templateContainer), null));
         }
         private DevExpress.Utils.Locations GetCaptionLocation(IModelLayoutViewItem layoutItemModel) {
-            DevExpress.Utils.Locations captionLocation = layoutItemModel.CaptionLocation;
-            return Equals(captionLocation, DevExpress.Utils.Locations.Default) ? DefaultLayoutItemCaptionLocation : captionLocation;
+            Locations captionLocation = layoutItemModel.CaptionLocation;
+            return Equals(captionLocation, Locations.Default) ? DefaultLayoutItemCaptionLocation : (DevExpress.Utils.Locations)captionLocation;
         }
         private DevExpress.Utils.HorzAlignment GetCaptionHorizontalAlignment(IModelLayoutViewItem layoutItemModel) {
             DevExpress.Utils.HorzAlignment captionHorizontalAlignment = layoutItemModel.CaptionHorizontalAlignment;
